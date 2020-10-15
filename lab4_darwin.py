@@ -4,7 +4,18 @@
 import random 
 #this will help us with the randomization
 def main():
-  board = def touch(board, row, col):
+  board = []
+  row = 5
+  col = 5
+  square = [["\N{'WHITE SQUARE'}" for i in range(col)] for j in range(row)]
+  for row in square:
+    print(row)
+  
+  def randomize(board):
+    row = random
+    col = random
+    
+  def touch(board, row, col):
     white_square = "\N{'WHITE SQUARE'}"
     black_square = "\N{'BLACK SQUARE'}"
     print(board[row][col])
@@ -25,7 +36,5 @@ randomize(board)
         moves += 1
     show(board)
     print(f"You won with {moves} moves!")
-count = getCount()
-lights = get_lights(count)
 
 main()
